@@ -1,5 +1,14 @@
+/* THEME COLOURS
+    Background: #F5F5F6
+    Accent Background: #E1E2E1
+    Primary Color: #1565c0
+    Light Color: #5e92f3
+    Dark Color: #003c8f
+*/
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #F5F5F6;
 }
