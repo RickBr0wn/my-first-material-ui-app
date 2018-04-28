@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 
 import HeroImage from './components/HeroImage'
 import Button from "material-ui/Button"
 import AppBar from './components/AppBar'
 import heroImage from './images/mainBanner.jpg'
+import Title from './components/Title'
+import ChartDiv from './components/ChartDiv'
 
 const AppStyles = {
 	color: '#fff',
@@ -19,6 +20,8 @@ class App extends Component {
 		return (
 			<div style={AppStyles}>
 				<AppBar />
+				<Title />
+				<ChartDiv />
 				<Button variant="raised" color="primary">Welcome</Button>
 			</div>
 		);
