@@ -1,13 +1,14 @@
 import React from 'react'
 
-const titleStyle = {
-	textAlign: 'center'
+const style = {
+    textAlign: 'center',
+    marginTop: '1.25rem'
 }
 
 const Title = () => {
     return (
-        <div style={titleStyle}>
-			<h1>Main Title</h1>
+        <div style={style}>
+			<h1>SHOPPING LIST</h1>
         </div>
     )
 }
