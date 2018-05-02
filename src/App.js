@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react'
 
-import Button from "material-ui/Button"
 import AppBar from './components/AppBar'
 import heroImage from './images/mainBanner.jpg'
-import Avatar from 'material-ui/Avatar'
+import Title from './components/Title'
+import Card from './components/Card'
+import ButtonContainer from './components/ButtonContainer'
+import List from './components/List'
+import HeaderIcon from './components/HeaderIcon'
 
-const AppStyles = {
+const styles = {
 	color: '#fff',
 	backgroundImage: `url(${heroImage})`,
 	backgroundRepeat: 'no-repeat',
@@ -13,16 +16,17 @@ const AppStyles = {
 	height: '100vh'
 }
 
-class App extends Component {
-	render() {
-		return (
-			<div style={AppStyles}>
-				<AppBar />
-				<Avatar src="https://randomuser.me/api/portraits/men/83.jpg" size={30} />
-				<Button variant="raised" color="primary">Welcome</Button>
-			</div>
-		);
-	}
+const App = () => {
+	return (
+		<div style={styles}>
+			<AppBar />
+			<HeaderIcon />
+			<Title />
+			{/* <Card name={"RICK"} age={44}/> */}
+			<List />
+			<ButtonContainer />
+		</div>
+	)
 }
 
 export default App;
