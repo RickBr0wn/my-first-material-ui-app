@@ -31,7 +31,7 @@ const ButtonAppBar = (props) => {
             {<MenuIcon />}
           </IconButton>
           <Typography variant="title" color="inherit" className={classes.flex}>
-            Material UI Design
+            Random Users
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>
