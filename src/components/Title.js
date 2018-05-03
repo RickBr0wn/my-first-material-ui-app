@@ -1,16 +1,16 @@
 import React from 'react'
 
 const style = {
-    textAlign: 'center',
-    marginTop: '1.25rem'
+	textAlign: 'center',
+	marginTop: '1.25rem'
 }
 
 const Title = () => {
-    return (
-        <div style={style}>
+	return (
+		<div style={style}>
 			<h1>SHOPPING LIST</h1>
-        </div>
-    )
+		</div>
+	)
 }
 
 export default Title

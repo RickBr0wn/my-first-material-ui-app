@@ -23,7 +23,8 @@ class List extends React.Component{
 		// }
 
 		return(
-			<div>
+			<div className="table">
+			<caption>List of users</caption>
 				<thead>
 					<tr>
 						<th>#</th>
@@ -35,13 +36,13 @@ class List extends React.Component{
 					{
 						buyItems.map((item, index) => {
 							return (
-								<tr>
+								<tr key={index}>
 									<th scope="row">1</th>
 									<td>{item}</td>
 									<td>Button</td>
 								</tr>
 							)
-					})
+						})
 					} 
 				</tbody>
 			</div>
